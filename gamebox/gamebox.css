@@ -1,0 +1,74 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #232739;
+}
+
+li {
+    float: left;
+    /*  border-right: 1px solid #627bf7;  */
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4056c6;
+}
+
+body {
+    background-color: #00010f;
+    /* background-image: url('https://wallpaper.dog/large/10698893.jpg');
+    background-size: cover; */
+}
+
+h1 {
+    color: #627bf7;
+    font-size: 28px;
+    font-family: "Raleway", sans-serif;
+
+    padding: 14px 16px;
+}
+
+p {
+    color: rgb(182, 182, 182);
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+    padding: 14px 16px;
+}
+
+h2 {
+    color: #627bf7;
+    font-size: 24px;
+    font-family: "Raleway", sans-serif;
+    padding: 14px 16px;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid #4056c6;
+    padding: 10px;
+}
+
+li p {
+    font-size: 20px;
+
+}
